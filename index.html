@@ -5,32 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Black Widow</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/svg-inject.min.js"></script>
   </head>
   <body>
     <header>
       <nav class="navbar">
         <div class="nav-menu">
           <div class="logo">
-            <svg
-              width="96"
-              height="96"
-              viewBox="0 0 450 407"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="224.5"
-                cy="203.5"
-                r="89.5"
-                stroke="#F21313"
-                stroke-width="40"
-              />
-              <circle cx="224.624" cy="203.624" r="99.9944" fill="#040606" />
-              <path
-                d="M210.427 203.254L168.084 129.307H280.917L239.561 203.254L280.917 277.694H168.084L210.427 203.254Z"
-                fill="#F21313"
-              />
-            </svg>
+            <img src="svg/black-widow-logo.svg" onload="SVGInject(this)" />
           </div>
           <ul class="nav-list">
             <li><a href="" class="nav-link">Home</a></li>
@@ -39,11 +21,20 @@
             <li><a href="" class="nav-link">#BeYourself</a></li>
           </ul>
         </div>
-        <div class="nav-social"></div>
+        <div class="nav-social">
+          <img src="svg/icon-facebook.svg" onload="SVGInject(this)" />
+          <img src="svg/icon-instagram.svg" onload="SVGInject(this)" />
+          <img src="svg/icon-youtube.svg" onload="SVGInject(this)" />
+          <img src="svg/icon-twitter.svg" onload="SVGInject(this)" />
+          
+        </div>
       </nav>
       <section class="container">
         <div class="container-item-1">
-          <p></p>
+          <p>
+            <img src="img/black-widow-text.png" onload="SVGInject(this)" />
+
+          </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec ante
             magna porta congue quam sit. Curabitur integer sollicitudin neque,
